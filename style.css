@@ -1,0 +1,176 @@
+body {
+    font-family: "Alegreya", serif;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    background-color: lightgray;
+}
+nav {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.listaNavegacion {
+    display: flex;
+    margin-top: 20px;
+}
+.img-soporte {
+    width: 140px;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.caja {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.listaNavegacion li a {
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.listaNavegacion li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+h1 {
+    margin-left: 40%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: black;
+}
+.mainInicio {
+    background: linear-gradient(#ded7d7, 95%, black);
+    padding-bottom: 50px;
+}
+.imgMain {
+    width: 100%;
+    height: 300px;
+}
+.parrafoPrincipal {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.divParrafo {
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 1%;
+    margin-bottom: 80px;
+}
+.divImagen {
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.titulo-principal:before {
+    content: "🌎 ";
+}
+.mapaUbicacion {
+    margin-left: 17%;
+    margin-top: 30px;
+}
+footer {
+    background: black;
+    padding: 10px;
+}
+.pieDePagina {
+    height: 10%;
+    display: flex;
+    margin-left: 10%;
+}
+.imagenPieDePagina {
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.listaPieDePagina {
+    margin-left: 45%;
+    margin-top: 35px;
+    color: white;
+    font-size: 15px;
+}
+.listaPieDePagina li {
+    padding: 5px;
+}
+.email:before {
+    content: "📧";
+}
+.telefono:before {
+    content: "📞 ";
+}
+.instituto {
+    margin-top: 30px;
+    color: white;
+    margin-left: 80%;
+    font-size: 10px;
+}
+/* ----------------------style-harware------------- */
+
+.imgHardware {
+    width: 100%;
+    height: 400px;
+}
+.parrafoHardware {
+    color: black;
+    font-size: 20px;
+    text-align: initial;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.mainHardware {
+    background: linear-gradient(#ded7d7, 95%, black);
+    /* height: 1600px; */
+    padding: 7rem;
+}
+.listaHardware {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.listaHardware li {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.listaHardware li:before {
+    content: "⛔ ";
+}
+/* ---------------------style sofware--------------- */
+
+.imgSofware {
+    width: 100%;
+    height: 400px;
+}
+.mainSofware {
+    background: linear-gradient(#ded7d7, 95%, black);
+    padding: 7rem;
+}
+.parrafoSofware {
+    color: black;
+    font-size: 20px;
+    text-align: initial;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.listaSofware {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.listaSofware li {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.listaSofware li:before {
+    content: "🚫 ";
+}
